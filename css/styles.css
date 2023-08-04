@@ -1,0 +1,202 @@
+/*=============== BASE ===============*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*=============== MAIN ===============*/
+.main {
+    background: #12141D;
+}
+
+/*=============== HEADER & NAV ===============*/
+.header {
+    padding: 36px 0 36px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    margin-right: 241px;
+    vertical-align: bottom;
+}
+
+.menu {
+    display: inline-block;
+}
+
+.menu-item {
+    list-style: none;
+    display: inline-block; /* делаем элемент li строчным элементом вместо блочного */
+}
+
+.menu-item a {
+    color: #FFF;
+    font-family: Rubik, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+    text-decoration: none;
+    margin-right: 36px;
+}
+
+/*=============== JOB-SEARCH ===============*/
+.job-search {
+    padding: 153px 0 137px 0;
+}
+
+.job-search .container {
+    margin: 0 auto; /* выравнивание блока по центру */
+    text-align: center;
+}
+
+.job-search-title {
+    max-width: 740px;
+    color: #FFF;
+    font-family: Poppins, sans-serif;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 88px; /* 110% */
+    letter-spacing: -1.6px;
+    margin: 0 auto;
+
+}
+
+.job-search-text {
+    max-width: 600px;
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Rubik, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    margin: 24px auto;
+}
+
+.job-search-input {
+    margin-top: 52px;
+    border-radius: 8px;
+    border: 1px solid #FD6314;
+    background: #FFF;
+    box-shadow: 20px 20px 50px 0 rgba(49, 49, 49, 0.05);
+    padding: 21px;
+    width: 580px;
+    color: #444D56;
+    font-family: Rubik, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 21.6px */
+}
+
+.job-search-overview {
+    margin-top: 32px;
+    color: #FFF;
+    font-family: Rubik, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.job-search-overview span {
+    color: #39C587;
+    font-family: Rubik, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; /* 150% */
+    margin-right: 5px;
+}
+
+/*=============== MAIN ===============*/
+
+.sponsors {
+    padding: 100px 0 100px 0;
+    text-align: center;
+}
+
+.sponsors-title {
+    color: #12141D;
+    font-family: Rubik, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 120% */
+}
+
+.sponsors-menu {
+    padding: 32px 0 32px 0;
+    list-style: none;
+    border-bottom: 1px solid rgba(18, 20, 29, 0.20);
+}
+
+.sponsors-item  {
+    margin-right: 56px;
+    display: inline-block; /* расположение меню по горизонтали */
+}
+
+/*=============== MAIN ===============*/
+.promo {
+    background: #12141D;
+}
+
+.promo .container {
+
+    padding: 100px 150px 100px 150px;
+}
+
+.promo-title {
+    color: #FFF;
+    font-family: Rubik, sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 125% */
+    letter-spacing: -0.64px;
+}
+
+.promo-name {
+    color: #FFF;
+    font-family: Poppin, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 120% */
+}
+
+.promo-company {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Rubik, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 114.286% */
+}
+
+/*=============== FOOTER ===============*/
+.footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.10);;
+    background: #12141D;
+    padding: 32px 0 32px 0;
+}
+
+.footer span {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Rubik , sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 133.333% */
+}
+
+.copyright {
+    margin-right: 900px;
+}
+
+
